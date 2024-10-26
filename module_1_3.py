@@ -1,7 +1,8 @@
 name = 'Aleksey'
+print("Name: " + name)
 age = 24
-new_age = 25
+print("Age:",age)
+age += 1
+print("New:",age)
 is_student = True
-
-
-print("Name: " + name + '\n' + "Age: " + str(age) + '\n' + "New Age: " + str(new_age) + '\n' +  "is_student: " + str(is_student))
+print("Is student:",is_student)
